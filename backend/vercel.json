@@ -1,6 +1,6 @@
 {
     "functions": {
-      "backend/**/*.py": {
+      "ptorequestbackend/**/*.py": {
         "runtime": "python3.9",
         "memory": 1024
       }
