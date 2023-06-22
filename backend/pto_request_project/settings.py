@@ -29,6 +29,25 @@ ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1' , '*']
 
 AUTH_USER_MODEL = 'authentication.User'
 
+SECRET_KEY = 'django-insecure-&2ge18bu!%ru8ryva^&**=!u-bt=u%*^y#1t+v(x9#&elsi8@p'
+
+# Database
+# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+      'ENGINE':'django.db.backends.postgresql_psycopg2',
+      'NAME':'postgres',
+      'USER':'postgres',
+      'PASSWORD':'password1',
+      'HOST':'localhost',
+      'PORT':'5432',
+        # 'OPTIONS': {
+        #     'autocommit': True
+        # }
+    }
+}
+
 
 # Application definition
 
