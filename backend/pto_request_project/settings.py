@@ -86,8 +86,6 @@ REST_FRAMEWORK = {
 
 WSGI_APPLICATION = 'pto_request_project.wsgi.application'
 
-DATABASES['default'] = dj url.config()
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 

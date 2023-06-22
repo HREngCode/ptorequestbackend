@@ -129,3 +129,4 @@ dmypy.json
 
 # Local Settings
 pto_request_project/local_settings.py
+.vercel

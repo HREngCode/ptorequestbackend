@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/**/*.py": {
+      "backend/**/*.py": {
         "runtime": "python3.8",
         "memory": 1024
       }
